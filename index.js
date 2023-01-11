@@ -15,4 +15,4 @@ app.post('/poker/validation', function (req, res) {
     res.send(response)
 })
 
-app.listen(8080)
+app.listen(process.env.PORT)
